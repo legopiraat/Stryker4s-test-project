@@ -1,9 +1,9 @@
-package com.legopiraat.test.deep
+package test.deep
 
 import org.scalatest.{FunSuite, Matchers}
 
-class MutatorsTestClassTest extends FunSuite with Matchers {
-  val sut = new MutatorsTestClass
+class MutatorsClassTest extends FunSuite with Matchers {
+  val sut = new MutatorsClass
 
   test("test and") {
     sut.testAnd(true, true) shouldBe true

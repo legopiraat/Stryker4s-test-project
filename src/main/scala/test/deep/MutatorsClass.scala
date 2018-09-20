@@ -1,6 +1,6 @@
-package com.legopiraat.test.deep
+package test.deep
 
-class MutatorsTestClass {
+class MutatorsClass {
 
   def testEqual(a: Int, b: Int) = {
     a == b

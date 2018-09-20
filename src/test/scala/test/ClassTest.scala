@@ -1,9 +1,9 @@
-package com.legopiraat.test
+package test
 
 import org.scalatest.{FunSuite, Matchers}
 
-class TestClassTest extends FunSuite with Matchers {
-  private val sut = TestClass
+class ClassTest extends FunSuite with Matchers {
+  private val sut = Class
 
   test("find person") {
     sut.find("person1") shouldBe Some("person1")

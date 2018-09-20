@@ -1,6 +1,6 @@
-package com.legopiraat.test
+package test
 
-object TestClass {
+object Class {
 
   val data = List("person1", "person2", "person3", "Henk", "Frank")
   val numbers = List(1, 2, 3, 4)
