@@ -9,6 +9,7 @@ class MutatorsClass {
   def testLessThen(a: Int, b: Int) = {
     a < b
   }
+  
   def testAnd(a: Boolean, b: Boolean) = {
     if(a && b) {
       true

@@ -18,7 +18,7 @@ class ClassTest extends FunSuite with Matchers {
   }
 
   test("min") {
-    sut.min shouldBe 1
+    sut.minimal shouldBe 1
   }
 
   test("calculate") {
